@@ -1,0 +1,28 @@
+{
+  "name": "wakemeweb",
+  "version": "1.0.0",
+  "description": "Web version of wake me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dannygx21/WakeMe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dannygx21/WakeMe/issues"
+  },
+  "homepage": "https://github.com/Dannygx21/WakeMe#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
